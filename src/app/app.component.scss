@@ -1,0 +1,12 @@
+ion-content {
+    --overflow: hidden;
+    overflow: auto;
+}
+ion-list {
+    background: transparent;
+    ion-item {
+        --background: transparent;
+        --color: #fff;
+    }
+}
+  
