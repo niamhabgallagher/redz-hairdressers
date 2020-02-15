@@ -16,6 +16,10 @@ const routes: Routes = [
     path: 'meet-stylists',
     loadChildren: () => import('./pages/meet-stylists/meet-stylists.module').then( m => m.MeetStylistsPageModule)
   },
+  {
+    path: 'about-us',
+    loadChildren: () => import('./pages/about-us/about-us.module').then( m => m.AboutUsPageModule)
+  },
 ];
 
 @NgModule({

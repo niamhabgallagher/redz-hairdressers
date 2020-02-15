@@ -17,17 +17,21 @@ public menuItems = [
     url: 'home'
   },
   {
+    title: 'About Us',
+    url: 'about-us'
+  },
+  {
     title: 'Price List',
     url: 'price-list'
+  },
+  {
+    title: 'Meet the Stylists',
+    url: 'meet-stylists'
   },
   {
     title: 'Contact Us',
     url: 'contact-us'
   },
-  {
-    title: 'Meet the Stylists',
-    url: 'meet-stylists'
-  }
 ];
 
   constructor(
