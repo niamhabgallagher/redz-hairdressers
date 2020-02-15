@@ -28,3 +28,15 @@
 ion-content, ion-toolbar, ion-menu {
     --background: #000;
 }
+
+ion-header {
+    img {
+      width: 300px;
+    }
+}
+
+.page-title {
+    color: #fff;
+    margin-top: 15px;
+    font-size: 50px;
+}
